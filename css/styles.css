@@ -89,6 +89,7 @@ body {
  text-decoration: none;
  margin-right: 2rem;
  border-radius: 2rem;
+
 }
 
 .a1-navbar{
@@ -98,11 +99,43 @@ body {
 }
 
 .a2-navbar{
-  background-color: ;
+
   color: white;
 }
 
 .texto-navbar{
   width: 75rem;
   margin: 0 auto;
+}
+
+.main-contenedor{
+  display: flex;
+}
+
+.img-main{
+  width: 2rem;
+  height: 8rem;
+  margin-right: 100rem;
+  margin-top: 5rem;
+}
+
+.img-main img{
+  border-radius: 2rem;
+}
+
+.main-texto-nosotros{
+  margin-left: 30rem;
+  margin-top: 15rem;
+  margin-right: 8rem;
+}
+
+.p-main{
+  color: #FFAA00;
+}
+
+.h2-main{
+  color: #003366;
+}
+.valores{
+  margin-top: 20rem;
 }
