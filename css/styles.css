@@ -1,3 +1,141 @@
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
+ 
+  font-size: 1.6rem;
+}
+
+.navbar-superior{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.ul-navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 6rem;
+  
+}
+
+.list-none{
+  list-style: none;
+  
+}
+
+.list-none a{
+  text-decoration: none;
+  margin: 0 1rem;
+  color: #003366;
+}
+.contenedor{
+ align-items: center;
+ margin: 0 auto;
+
+}
+.img{
+  max-width: 100%;
+  margin: 0 auto;
+  
+}
+
+.cotizacion-s{
+  justify-content: space-between;
+  
+}
+
+.imagen-logo a img{
+  width: 6rem;
+  height: 5rem;
+}
+.cotizacion-s a{
+  text-decoration: none;
+  background-color: #FFAA00;
+  padding: 1rem;
+  border-radius: 2rem;
+  color: #003366
+}
+
+.navbar-abajo{
+  background-image:url("../img/banner.png");
+  background-size: cover;   
+  background-position: center; 
+  height: 15rem;
+  padding: 20rem;
+  margin: 0 auto;
+
+}
+
+.p-navbar{
+  color: #FFAA00;
+}
+
+.h1-navbar{
+  color: white;
+}
+
+.h2-navbar{
+  color:#A3D9A5 ;
+}
+.p2-navbar{
+  color:#D9D9D9 ;
+}
+
+.servicios-cotizacion a{
+ text-decoration: none;
+ margin-right: 2rem;
+ border-radius: 2rem;
+
+}
+
+.a1-navbar{
+  background-color: #FFAA00;
+  padding: 1rem;
+  color: #003366
+}
+
+.a2-navbar{
+
+  color: white;
+}
+
+.texto-navbar{
+  width: 75rem;
+  margin: 0 auto;
+}
+
+.main-contenedor{
+  display: flex;
+}
+
+.img-main{
+  width: 2rem;
+  height: 8rem;
+  margin-right: 100rem;
+  margin-top: 5rem;
+}
+
+.img-main img{
+  border-radius: 2rem;
+}
+
+.main-texto-nosotros{
+  margin-left: 30rem;
+  margin-top: 15rem;
+  margin-right: 8rem;
+}
+
+.p-main{
+  color: #FFAA00;
+}
+
+.h2-main{
+  color: #003366;
+}
+.valores{
+  margin-top: 20rem;
 }
